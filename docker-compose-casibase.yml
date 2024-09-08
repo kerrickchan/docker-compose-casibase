@@ -1,0 +1,6 @@
+services:
+  casibase:
+    image: casbin/casibase-all-in-one:latest
+    platform: linux/amd64 # No Mac M1 support yet
+    ports:
+      - "14000:14000"

@@ -1,0 +1,5 @@
+services:
+  casibase:
+    extends:
+      file: docker-compose-casibase.yml
+      service: casibase
